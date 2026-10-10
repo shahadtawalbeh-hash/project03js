@@ -1,0 +1,73 @@
+body {
+    
+    background-color: AliceBlue;
+    margin: 0;
+    padding: 40px 20px;
+}
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: White;
+    border-radius: 12px;
+    
+}
+h1 {
+    text-align: center;
+    color: MidnightBlue;
+}
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+#taskInput {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid LightGray;
+    border-radius: 6px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: White;
+    font-size: 14px;
+}
+#addButton {
+    background-color: SteelBlue;
+}
+#taskCounter {
+    margin-top: 20px;
+    color: DimGray;
+    font-weight: bold;
+}
+#taskList {
+    padding: 0;
+    list-style: none;
+}
+#taskList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: Snow;
+    border: 1px solid Gainsboro;
+    border-radius: 6px;
+}
+.task-text {
+    flex: 1;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+.completed .task-text {
+    text-decoration: line-through;
+    color: ForestGreen;
+}
+.delete-button {
+    background-color: FireBrick;
+}
