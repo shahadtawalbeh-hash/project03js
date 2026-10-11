@@ -3,6 +3,7 @@ function calculateGrade(score)
 
   if (typeof score !== "number" || score < 0 || score > 100) {
         return "Invalid score";
+}
 
  if(score >= 90)
  {
