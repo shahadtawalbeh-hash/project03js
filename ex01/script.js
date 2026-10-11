@@ -1,10 +1,8 @@
 function calculateGrade(score)
 {
 
-  if(typeof score !== "number" ||Number.isNaN(score)||score<0 || score>100)
-  {
-    return "invalid input ";
-  }
+  if (typeof score !== "number" || score < 0 || score > 100) {
+        return "Invalid score";
 
  if(score >= 90)
  {
@@ -31,7 +29,7 @@ function calculateGrade(score)
 
 function checkAccess(age, hasTicket)
 {
- if(typeof age !== "number" ||Number.isNaN(age)||age<0)
+ if(typeof age !== "number" || age<0)
   {
     return false;
   } 
